@@ -8,7 +8,7 @@ export default function TourKitProvider() {
   // Load SDK once
   useEffect(() => {
     const SCRIPT_ID = "tourkit-sdk"
-    const SCRIPT_SRC = "Outlet "
+    const SCRIPT_SRC = "https://cdn.jsdelivr.net/gh/webdev-raj/Tourkit-sdk@v4.0.0-sdk/sdk/dist/tourkit.min.js"
 
     // Already loaded
     if (document.getElementById(SCRIPT_ID)) {
